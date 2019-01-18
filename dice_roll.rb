@@ -5,5 +5,5 @@
 def roll
   # 1 + rand(6)
   arr = [1,2,3,4,5,6]
-  arr.sample(1 + rand(arr.count))
+  arr.sample(1 + rand(6))
 end
